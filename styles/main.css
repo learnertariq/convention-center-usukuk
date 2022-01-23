@@ -13,3 +13,13 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
 }
+
+
+.hero-slider .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.hero-slider .carousel-item {
+  height: 500px;
+}

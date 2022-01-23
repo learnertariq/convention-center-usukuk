@@ -51,8 +51,8 @@ h6 {
 }
 
 .card-popular {
-  height: calc(100% + 0.6rem);
-  transform: translateY(-0.9rem);
+  height: calc(100% + 1rem);
+  transform: translateY(-1rem);
 }
 
 .card-popular:hover {
@@ -67,4 +67,8 @@ h6 {
 
 .end-90 {
   right: 5px;
+}
+
+.object-fit-cover {
+  object-fit: cover;
 }

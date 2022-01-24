@@ -38,10 +38,6 @@ h6 {
   border-radius: 10px;
 }
 
-.fs-7 {
-  font-size: 0.8rem;
-}
-
 .card {
   transition: transform 0.3s;
 }
@@ -51,10 +47,8 @@ h6 {
   z-index: 999;
 }
 
-.card-popular:hover {
-}
-
-.card-body {
+.fs-7 {
+  font-size: 0.8rem;
 }
 
 .fw-600 {

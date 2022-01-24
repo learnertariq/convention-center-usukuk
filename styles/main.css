@@ -91,6 +91,10 @@ section {
   max-width: 600px;
 }
 
+.input-email {
+  max-width: 400px;
+}
+
 @media only screen and (min-width: 768px) {
   .card-popular {
     height: calc(100% + 1rem);

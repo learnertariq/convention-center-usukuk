@@ -87,6 +87,10 @@ section {
   border-width: 0 0 0 10px !important;
 }
 
+.max-w-600 {
+  max-width: 600px;
+}
+
 @media only screen and (min-width: 768px) {
   .card-popular {
     height: calc(100% + 1rem);

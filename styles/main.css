@@ -51,11 +51,6 @@ h6 {
   z-index: 999;
 }
 
-.card-popular {
-  height: calc(100% + 1rem);
-  transform: translateY(-1rem);
-}
-
 .card-popular:hover {
 }
 
@@ -66,10 +61,17 @@ h6 {
   font-weight: 600 !important;
 }
 
+.start-10 {
+  left: 10px;
+}
+
+.top-10 {
+  top: 50px;
+}
+
 .end-90 {
   right: 5px;
 }
-
 .object-fit-cover {
   object-fit: cover;
 }
@@ -85,4 +87,19 @@ h6 {
 section {
   margin-top: 5rem !important;
   margin-bottom: 5rem !important;
+}
+
+.toast-border {
+  border-width: 0 0 0 10px !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-popular {
+    height: calc(100% + 1rem);
+    transform: translateY(-1rem);
+  }
+
+  .start-md-25 {
+    left: 25% !important;
+  }
 }

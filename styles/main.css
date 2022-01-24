@@ -2,6 +2,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  color: #333;
 }
 
 header,
@@ -71,4 +72,17 @@ h6 {
 
 .object-fit-cover {
   object-fit: cover;
+}
+
+.contact-separator-hr {
+  width: 2px;
+}
+
+.contact-separator-vt {
+  height: 2px;
+}
+
+section {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
 }
